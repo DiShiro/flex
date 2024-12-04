@@ -1,0 +1,39 @@
+body {
+    height: 100vh;
+  }
+  
+  .container {
+    height: 100%;
+  }
+  
+  ul {
+    padding: 10px;
+    background-color: #ccc;
+    height: 100px;
+  }
+  
+  li {
+    list-style: none;
+    background-color: aqua;
+  }
+  
+  /* ------------ */
+  
+  .ul1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  
+  .ul2 {
+    display: flex;
+    justify-content: flex-end;
+  }
+  
+  .ul3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+  }
+  
+  /* -------------- */
